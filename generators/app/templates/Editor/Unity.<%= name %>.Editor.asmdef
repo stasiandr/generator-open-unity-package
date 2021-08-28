@@ -1,0 +1,17 @@
+{
+    "name": "Unity.<%= name %>.Editor",
+    "references": [
+        "GUID:38918716343dc48578da5bbdc58b379d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

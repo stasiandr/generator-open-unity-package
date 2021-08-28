@@ -1,0 +1,14 @@
+{
+  "name": "Unity.<%= name %>.Editor.Tests",
+  "references": [
+    "Unity.<%= name %>.Editor",
+    "Unity.<%= name %>"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": []
+}

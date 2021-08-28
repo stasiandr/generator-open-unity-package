@@ -1,0 +1,11 @@
+{
+  "name": "Unity.<%= name %>.Tests",
+  "references": [
+    "Unity.<%= name %>"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}

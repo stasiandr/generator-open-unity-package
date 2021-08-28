@@ -1,0 +1,43 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "displayName": "<%= displayName %>",
+  "description": "<%= description %>",
+  "unity": "<%= unity %>",
+  <% if (unityRelease != null && unityRelease != "") { %>
+  "unityRelease": "<%= unityRelease %>",
+  <% } %>
+
+  <% if (type != null) { %>
+  "type": "<%= type %>",
+  <% } %>
+
+  <% if (author != null) { %>
+  "author": {
+    "name": "<%= author.name %>",
+    "email": "<%= author.email %>",
+    "url": "<%= author.url %>"
+  }
+  <% } %>
+
+  
+  <% if (keywords != null) { %>
+  "keywords": [
+    "<%= keywords.join(', \"'); %>"
+  ],
+  <% } %>
+    
+  <% if (samples) { %>
+  "samples": [
+    {
+      "displayName": "Example Sample",
+      "description": "Contains Sample assets for template",
+      "path": "Samples~/ExampleSample"
+    }
+  ]
+  <% } %>
+
+  <% if (hideInEditor != null && hideInEditor) { %>
+  "hideInEditor": <%= hideInEditor %>,
+  <% } %>
+}
