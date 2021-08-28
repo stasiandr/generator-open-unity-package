@@ -1,11 +1,11 @@
 {
   "name": "generator-open-unity-package",
   "version": "0.0.0",
-  "description": "unity package ganerator",
+  "description": "Tool for generating Unity3d packages compatible with UPM. Packed with samples, boilerplates, etc.",
   "author": {
     "name": "stasiandr",
     "email": "stasiandr@gmail.com",
-    "url": ""
+    "url": "https://github.com/stasiandr"
   },
   "files": [
     "generators"
@@ -81,6 +81,9 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "stasiandr/generator-open-unity-package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stasiandr/generator-open-unity-package.git"
+  },
   "license": "MIT"
 }

@@ -1,20 +1,24 @@
-# generator-openupm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> generator for openupm
+# generator-openupm 
+
+
+Tool for generating Unity3d packages compatible with UPM. Packed with samples, boilerplates, etc.
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-openupm using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-open-unity-package using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-openupm
+npm install -g generator-open-unity-package
 ```
 
-Then generate your new project:
+Change directory to Packages folder of your Unity Project. Then generate your new project:
 
 ```bash
-yo openupm
+yo generator-open-unity-package
 ```
+
+Next you will see Package with selected name in Project window under Packages. To see more details open [creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html) by Unity.
 
 ## Getting To Know Yeoman
 
@@ -25,14 +29,4 @@ yo openupm
 
 ## License
 
-MIT © [stasiandr]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-openupm.svg
-[npm-url]: https://npmjs.org/package/generator-openupm
-[travis-image]: https://travis-ci.com/stasiandr/generator-openupm.svg?branch=master
-[travis-url]: https://travis-ci.com/stasiandr/generator-openupm
-[daviddm-image]: https://david-dm.org/stasiandr/generator-openupm.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/stasiandr/generator-openupm
-[coveralls-image]: https://coveralls.io/repos/stasiandr/generator-openupm/badge.svg
-[coveralls-url]: https://coveralls.io/r/stasiandr/generator-openupm
+MIT © [stasiandr](https://github.com/stasiandr/generator-open-unity-package/blob/7029762af11eb4dfdc7baf5de4bbb4f3218b3575/LICENSE)
