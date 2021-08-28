@@ -1,4 +1,4 @@
-# generator-openupm 
+# generator-open-unity-package
 
 
 Tool for generating Unity3d packages compatible with UPM. Packed with samples, boilerplates, etc.

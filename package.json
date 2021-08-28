@@ -1,6 +1,6 @@
 {
   "name": "generator-open-unity-package",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tool for generating Unity3d packages compatible with UPM. Packed with samples, boilerplates, etc.",
   "author": {
     "name": "stasiandr",
