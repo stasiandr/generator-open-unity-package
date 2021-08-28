@@ -81,6 +81,6 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "stasiandr/generator-openupm",
+  "repository": "stasiandr/generator-open-unity-package",
   "license": "MIT"
 }
